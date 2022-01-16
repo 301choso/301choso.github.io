@@ -11,3 +11,12 @@ main:
    - title: "Tags"
      url: /tags/ 
 
+docs:
+    - title: "Programing"
+      children
+        - title: "Java"
+          url: Java/
+          category: "Java"
+        - title: "Spring"
+          url: Spring/
+          category: "Spring"
