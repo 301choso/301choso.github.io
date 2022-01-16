@@ -1,11 +1,14 @@
 ---
 title: "Java 프로그래밍"
 layout: archive
-permalink: categories/java
+permalink: java
 author_profile: true
-sidebar_main: true
+sidebar: 
+  nav: "docs"
 ---
 
 
-{% assign posts = site.categories.Java %}
-{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
+{% assign posts = site.categories.Java %}  
+{% for post in posts %}  
+  {% include archive-single.html type=page.entries_layout %}  
+{% endfor %}
