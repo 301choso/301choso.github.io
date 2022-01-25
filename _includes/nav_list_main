@@ -55,8 +55,8 @@
           <span class="nav__sub-title">Study</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Book Review" %}
-                        <li><a href="/categories/Book Review" class="">기술서적 리뷰 ({{category[1].size}})</a></li>
+                    {% if category[0] == "StudyGroup" %}
+                        <li><a href="/categories/Book Review" class="">Study Group ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
